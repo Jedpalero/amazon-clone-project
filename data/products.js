@@ -656,5 +656,37 @@ const products = [
       "apparel",
       "mens"
     ]
+  },
+  {
+    id: "cc3847e2-2312-103a-c7dd-32fde041a966",
+    image: "images/products/backpack.jpg",
+    name: "Backpack 5 Hidden Pouches",
+    rating: {
+      stars: 4,
+      count: 1157
+    },
+    priceCents: 2110,
+    keywords: [
+      "bag",
+      "backpack",
+      "schoolbag",
+      "mens"
+    ]
+  },
+  {
+    id: "zs3117e2-2112-1123g-h5dd-54vde041a932",
+    image: "images/products/umbrella.jpg",
+    name: "Durable Umbrella- 2 Fold",
+    rating: {
+      stars: 4.5,
+      count: 2112
+    },
+    priceCents: 1320,
+    keywords: [
+      "umbrella",
+      "rain",
+      "sunny",
+      "school"
+    ]
   }
 ];
