@@ -117,8 +117,11 @@ export function renderOrderSummary() {
       const container = document.querySelector(`.js-cart-item-container-${productId}`);
 
       container.classList.add('is-editing-quantity');
+
+      renderCheckoutHeader();
     });
   }); 
+  updateCartQuantity();
 
 
   document.querySelectorAll('.js-save-link').forEach((link) => {
@@ -145,6 +148,8 @@ export function renderOrderSummary() {
       quantityLabel.innerHTML = newQuantity;
 
       updateCartQuantity();
+      renderOrderSummary();
+      renderPaymentSummary();
       })
     });
 
